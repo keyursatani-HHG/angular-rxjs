@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './includes/header/header.component';
 import { PromoiseComponent } from './promoise/promoise.component';
 import { ObservableComponent } from './observable/observable.component';
+import { AllComponent } from './observable/all/all.component';
+import { FromEventComponent } from './observable/from-event/from-event.component';
+import { IntervalComponent } from './observable/interval/interval.component';
+import { OfFromComponent } from './observable/of-from/of-from.component';
 
 
 @NgModule({
@@ -14,7 +18,10 @@ import { ObservableComponent } from './observable/observable.component';
     HeaderComponent,
     PromoiseComponent,
     ObservableComponent,
-
+    AllComponent,
+    FromEventComponent,
+    IntervalComponent,
+    OfFromComponent,
   ],
   imports: [
     BrowserModule,
