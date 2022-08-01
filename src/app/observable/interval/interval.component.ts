@@ -24,10 +24,9 @@ export class IntervalComponent implements OnInit {
       this.interval.print(this.obsMsg ,'elContainer2')
       this.interval.print(this.obsMsg ,'elContainer3')
 
-      if(res >=  5){
+      if(res >=  10){
         this.videoSubscription.unsubscribe();
       }
     })
   }
-
 }
